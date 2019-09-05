@@ -10,7 +10,7 @@ class Customer
   end
   
   def self.all
-    puts @all
+     @@all
   end
   
   def new_meal(waiter, total, tip=0)
